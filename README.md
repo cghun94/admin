@@ -137,42 +137,42 @@ token 검증하여 만료시간 재설정 , 재발급
 > router :  /send/list 
 
 -전송 리스트
-> router :  /send/list
--토큰 선택시 전송 
-> router :  /send/list/info?symbol='토큰심볼'
--전송내역 리스트
-> router :  /send/log/list
--전송내역 리스트 토큰 선택
-> router :  /send/log/list/info?symbol='토큰심볼'
+> router :  /send/list<br>
+-토큰 선택시 전송 <br>
+> router :  /send/list/info?symbol='토큰심볼'<br>
+-전송내역 리스트<br>
+> router :  /send/log/list<br>
+-전송내역 리스트 토큰 선택<br>
+> router :  /send/log/list/info?symbol='토큰심볼'<br>
 
--토큰 락업 리스트
-> router :  /lockup/list
--토큰 선택시 락업 
-> router :  /lockup/list/info?symbol='토큰심볼'
--락업 내역 리스트
-> router :  /lockup/log/list
--락업 내역 상세
-> router :  /lockup/log/list/info?symbol='토큰심볼'
+-토큰 락업 리스트<br>
+> router :  /lockup/list<br>
+-토큰 선택시 락업 <br>
+> router :  /lockup/list/info?symbol='토큰심볼'<br>
+-락업 내역 리스트<br>
+> router :  /lockup/log/list<br>
+-락업 내역 상세<br>
+> router :  /lockup/log/list/info?symbol='토큰심볼'<br>
 
--토큰 소각 리스트
-> router :  /burn/list
--토큰 선택시 소각 
-> router :  /burn/list/info?symbol='토큰심볼'
--소각 내역 조회 리스트
-> router :  /burn/log/list
--토큰 클릭시 상세
-> router :  /burn/log/list/info?symbol='토큰심볼'
+-토큰 소각 리스트<br>
+> router :  /burn/list<br>
+-토큰 선택시 소각 <br>
+> router :  /burn/list/info?symbol='토큰심볼'<br>
+-소각 내역 조회 리스트<br>
+> router :  /burn/log/list<br>
+-토큰 클릭시 상세<br>
+> router :  /burn/log/list/info?symbol='토큰심볼'<br>
 
--관리자 설정 권한 리스트
-> router :  /admin/list
--관리자 검색
-> router :  /admin/list/info?email=?
--관리자 추가
-> router :  /admin/list/add
--관리자 제거
-> router :  /admin/list/remove
--관리자 내역
-> router :  /admin/log/list
+-관리자 설정 권한 리스트<br>
+> router :  /admin/list<br>
+-관리자 검색<br>
+> router :  /admin/list/info?email=?<br>
+-관리자 추가<br>
+> router :  /admin/list/add<br>
+-관리자 제거<br>
+> router :  /admin/list/remove<br>
+-관리자 내역<br>
+> router :  /admin/log/list<br>
 
 ---
 
