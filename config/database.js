@@ -15,11 +15,11 @@ const mysqlConnection ={
 
     api : function(){
         return mysql.createPool({
-            host: '3.1.35.196' ,
-            port : 3306,
-            user: 'api',
-            password: 'KOBEA@2021@',
-            database: 'api'
+            host: process.env.APIHOST ,
+            port : process.env.APILOCALPOST,
+            user: process.env.APIUSER,
+            password: process.env.APIPASSWORD,
+            database: process.env.APIDATABASE
         }).promise()
     },
 
